@@ -1,0 +1,19 @@
+{
+	"name": "truth-agent-starter",
+	"version": "1.0.0",
+	"description": "A starter project for developing a Truth agent",
+	"main": "build/agent.truth.js",
+	"license": "MIT",
+	"scripts": {
+		"compile": "tsc && rollup -c",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"truth-compiler": "^0.2.9"
+	},
+	"devDependencies": {
+		"@types/react": "^16.8.4",
+		"rollup-plugin-sourcemaps": "^0.4.2",
+		"truth-editor-api": "0.0.6"
+	}
+}

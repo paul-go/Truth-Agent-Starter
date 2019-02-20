@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"module": "es6",
+		"target": "es6",
+		"moduleResolution": "node",
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"stripInternal": true,
+		"strict": true,
+		"rootDir": "../",
+		"baseUrl": "./",
+		"outDir": "./build",
+		"jsx": "react",
+		"types": [
+			"truth-compiler",
+			"truth-editor-api"
+		],
+		"lib": [
+			"dom",
+			"es2017",
+		]
+	},
+	"include": [
+		"**/*.ts",
+		"**/*.tsx"
+	]
+}
