@@ -14,6 +14,6 @@
 	"devDependencies": {
 		"@types/react": "^16.8.4",
 		"rollup-plugin-sourcemaps": "^0.4.2",
-		"truth-editor-api": "0.0.6"
+		"truth-editor-api": "^0.0.18"
 	}
 }
