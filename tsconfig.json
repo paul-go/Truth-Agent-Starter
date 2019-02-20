@@ -7,7 +7,6 @@
 		"inlineSources": true,
 		"stripInternal": true,
 		"strict": true,
-		"rootDir": "../",
 		"baseUrl": "./",
 		"outDir": "./build",
 		"jsx": "react",
