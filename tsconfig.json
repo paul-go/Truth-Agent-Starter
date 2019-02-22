@@ -11,8 +11,8 @@
 		"outDir": "./build",
 		"jsx": "react",
 		"types": [
-			"truth-compiler",
-			"truth-editor-api"
+			"truth-agent",
+			"truth-editor"
 		],
 		"lib": [
 			"dom",

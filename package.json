@@ -8,12 +8,10 @@
 		"compile": "tsc && rollup -c",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"dependencies": {
-		"truth-compiler": "^0.2.9"
-	},
 	"devDependencies": {
 		"@types/react": "^16.8.4",
 		"rollup-plugin-sourcemaps": "^0.4.2",
-		"truth-editor-api": "^0.0.18"
+		"truth-agent": "^0.2.10",
+		"truth-editor": "^0.0.2"
 	}
 }
