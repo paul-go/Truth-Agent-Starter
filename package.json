@@ -10,8 +10,10 @@
 	},
 	"devDependencies": {
 		"@types/react": "^16.8.4",
+		"rollup-plugin-commonjs": "^9.2.1",
+		"rollup-plugin-node-resolve": "^4.0.1",
 		"rollup-plugin-sourcemaps": "^0.4.2",
 		"truth-agent": "^0.2.10",
-		"truth-editor": "^0.0.2"
+		"truth-editor": "^0.0.6"
 	}
 }

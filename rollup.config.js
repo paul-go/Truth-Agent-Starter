@@ -1,4 +1,6 @@
 import sourcemaps from "rollup-plugin-sourcemaps";
+import resolve from "rollup-plugin-node-resolve";
+import commonjs from "rollup-plugin-commonjs";
  
 export default [{
 	input: "build/Main.js",
@@ -9,6 +11,8 @@ export default [{
 		file: "build/agent.truth.js"
 	},
 	plugins: [
-		sourcemaps()
+		sourcemaps(),
+		resolve(),
+		commonjs()
 	]
 }];
